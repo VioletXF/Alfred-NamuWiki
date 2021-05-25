@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.vero.gettingstarted.keywords</string>
+	<string>com.xfl.alfrednamuwiki</string>
+	<key>category</key>
+	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>73E23B12-22CF-4B31-BC44-2F139F4793F8</key>
@@ -11,29 +13,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>536FF381-7883-417A-A12E-5957FF738C98</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>77269867-DF3F-43FA-AD1A-893B32E5B492</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>55E07C0A-AB1B-4463-8153-95F88851DAE7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6B3EF151-5604-48BF-B910-EC8360DD6BAC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -57,13 +36,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Vero Pepperrell</string>
+	<string>VioletXF</string>
 	<key>description</key>
-	<string>Learn how to connect a keyword to different actions and outputs</string>
+	<string>Search Namu Wiki</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Keywords - Getting Started</string>
+	<string>NamuWiki</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -137,59 +116,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Safari.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>55E07C0A-AB1B-4463-8153-95F88851DAE7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>gettingstarted</string>
-				<key>subtext</key>
-				<string>From the Getting Started - Keywords guide</string>
-				<key>text</key>
-				<string>Launch Safari and my Downloads folder</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>77269867-DF3F-43FA-AD1A-893B32E5B492</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Downloads</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>6B3EF151-5604-48BF-B910-EC8360DD6BAC</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -250,41 +176,12 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 			<key>ypos</key>
 			<integer>145</integer>
 		</dict>
-		<key>55E07C0A-AB1B-4463-8153-95F88851DAE7</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>xpos</key>
-			<integer>670</integer>
-			<key>ypos</key>
-			<integer>260</integer>
-		</dict>
-		<key>6B3EF151-5604-48BF-B910-EC8360DD6BAC</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>xpos</key>
-			<integer>670</integer>
-			<key>ypos</key>
-			<integer>420</integer>
-		</dict>
 		<key>73E23B12-22CF-4B31-BC44-2F139F4793F8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>115</integer>
 			<key>ypos</key>
 			<integer>460</integer>
-		</dict>
-		<key>77269867-DF3F-43FA-AD1A-893B32E5B492</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>note</key>
-			<string>1. This keyword is set to not require additional input text, so that you can type "gettingstarted" and press return to launch the two attached actions at once.</string>
-			<key>xpos</key>
-			<integer>390</integer>
-			<key>ypos</key>
-			<integer>340</integer>
 		</dict>
 		<key>8ED38EDE-6451-4548-950E-B714803B3699</key>
 		<dict>
@@ -297,6 +194,6 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com</string>
+	<string>https://github.com/VioletXF/Alfred-NamuWiki</string>
 </dict>
 </plist>
